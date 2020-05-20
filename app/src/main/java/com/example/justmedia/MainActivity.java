@@ -10,9 +10,13 @@ public class MainActivity extends AppCompatActivity {
 
     public void fade(View view) {
 
-        ImageView mojo = findViewById(R.id.ImageView);
+        ImageView mojoSmall = findViewById(R.id.mojoSmall);
 
-        mojo.animate().alpha(0f).setDuration(2000);
+        mojoSmall.animate().alpha(0f).setDuration(2000);
+
+        ImageView mojoBig = findViewById(R.id.mojoBig);
+
+        mojoBig.animate().alpha(-0f).setDuration(2000);
 
     }
 
