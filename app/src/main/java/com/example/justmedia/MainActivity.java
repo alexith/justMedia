@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void fade(View view) {
 
-        ImageView mojo = findViewById(R.id.mojo);
+        ImageView mojo = findViewById(R.id.ImageView);
 
         mojo.animate().alpha(0f).setDuration(2000);
 
