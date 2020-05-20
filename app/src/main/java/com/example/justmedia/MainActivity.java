@@ -14,7 +14,7 @@ public class MainActivity extends AppCompatActivity {
 
         //mojoSmall.animate().translationYBy(1000f).setDuration(2000);
 
-        mojoSmall.animate().translationXBy(1000f).setDuration(2000);
+        mojoSmall.animate().translationXBy(2000f).setDuration(2000);
 
         //mojoSmall.animate().alpha(-7.5f).setDuration(2000);
 
