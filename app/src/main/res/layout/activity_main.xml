@@ -21,6 +21,7 @@
         android:id="@+id/mojoBig"
         android:layout_width="420dp"
         android:layout_height="732dp"
+        android:alpha="0"
         android:onClick="fade"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
